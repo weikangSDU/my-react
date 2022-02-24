@@ -1,9 +1,18 @@
 import React, { Component } from 'react'
 
 export default class App extends Component {
-  state = {
-    isShow: true,
-    count: 0
+  // 一种state写法
+  // state = {
+  //   isShow: true,
+  //   count: 0
+  // }
+  // 另一种state写法
+  constructor() {
+    super() // 因为是集成，必须要有super
+    this.state = {
+      isShow: true,
+      count: 0
+    }
   }
   myRef = React.createRef()
   render() {
