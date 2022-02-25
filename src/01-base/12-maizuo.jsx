@@ -28,7 +28,7 @@ export default class App extends Component {
         {
           this.showSwitchPage()
         }
-        <ul>
+        <ul className='title' style={{ height: '40px' }}>
           {
             this.state.list.map((item, index) => {
               return <li key={item.id} onClick={() => {

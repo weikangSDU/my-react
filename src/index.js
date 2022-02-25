@@ -6,6 +6,7 @@ import ReactDOM  from 'react-dom'
 // import App from './01-base/08-state'
 // import App from './01-base/09-循环渲染'
 // import App from './01-base/10-todolist'
-import App from './01-base/11-maizuo'
+// import App from './01-base/12-maizuo'
+import App from './01-base/13-setState同步异步'
 
 ReactDOM.render(<App />, document.getElementById('root'))
