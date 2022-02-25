@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  bottom: 0px;
+}
+
+.active {
+  color: red;
+}
