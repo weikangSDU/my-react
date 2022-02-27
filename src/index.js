@@ -18,6 +18,7 @@ import ReactDOM  from 'react-dom'
 // import App from './02-advanced/06-中间人模式'
 // import App from './02-advanced/07-发布订阅'
 // import App from './02-advanced/08-发布订阅案例'
-import App from './02-advanced/09-context'
+// import App from './02-advanced/09-context'
+import App from './02-advanced/12-生命周期-初始化'
 
 ReactDOM.render(<App />, document.getElementById('root'))
