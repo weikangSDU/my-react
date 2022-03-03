@@ -20,6 +20,8 @@ import ReactDOM  from 'react-dom'
 // import App from './02-advanced/08-发布订阅案例'
 // import App from './02-advanced/09-context'
 // import App from './02-advanced/12-生命周期-初始化'
-import App from './02-advanced/27-swiper-组件'
+// import App from './02-advanced/27-swiper-组件'
+import App from './03-hooks/03-useEffect2'
+
 
 ReactDOM.render(<App />, document.getElementById('root'))
