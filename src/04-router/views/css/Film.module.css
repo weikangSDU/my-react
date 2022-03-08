@@ -1,0 +1,12 @@
+.kerwinactive{
+    border-bottom: 1px solid red;
+    color:blue;
+}
+
+:global(#kerwin){
+    background:red;
+}
+
+.film ul li{
+    list-style: none;
+}

@@ -4,10 +4,10 @@
  */
 import React from 'react'
 
-export default function Cinemas() {
+export default function NotFound() {
     return (
         <div>
-            cinemas
+            404 not found
         </div>
     )
 }

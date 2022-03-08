@@ -6,7 +6,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 // import App from './03-hooks/16-自定义hooks'
-import App from './04-router/App'
+import App from './05-redux/App'
 
 ReactDOM.render(
     // <React.StrictMode>
