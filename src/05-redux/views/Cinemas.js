@@ -2,16 +2,11 @@
  * @作者: kerwin
  * @公众号: 大前端私房菜
  */
-import React,{useState} from 'react'
-import store from '../redux/store'
-export default function Cinemas(props) {
+import React from 'react'
 
-    const [cityName] = useState(store.getState().CityReducer.cityName)
+export default function Cinemas() {
     return (
         <div>
-            <div onClick={()=>{
-                props.history.push(`/city`)
-            }}>{cityName}</div>
             cinemas
         </div>
     )

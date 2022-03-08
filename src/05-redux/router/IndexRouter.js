@@ -10,7 +10,6 @@ import Center from '../views/Center'
 import Detail from '../views/Detail'
 import NotFound from '../views/NotFound'
 import Login from '../views/Login'
-import City from '../views/City'
 
 function isAuth(){
     return localStorage.getItem("token")
@@ -36,7 +35,6 @@ export default class IndexRouter extends Component {
                     }}/>
 
                     <Route path="/login" component={Login}/>
-                    <Route path="/city" component={City}/>
 
                     {/* /detail/1111  动态路由 */}
                     <Route path="/detail/:myid" component={Detail} />

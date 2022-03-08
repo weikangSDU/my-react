@@ -9,19 +9,17 @@ import './views/css/App.css'
 import store from './redux/store'
 export default class App extends Component {
     state = {
-        isShow:store.getState()
+        isShow: store.getState().show
     }
-
+    // store.subsribe 订阅
     componentDidMount() {
-        store.subscribe(()=>{
-            console.log("app 中订阅",store.getState())
-
+        store.subscribe(()=> {
+            console.log('app 订阅', store.getState())
             this.setState({
-                isShow:store.getState().TabbarReducer.show
+                isShow: store.getState().show
             })
         })
     }
-    // store.subsribe 订阅
     render() {
         return (
            <div>
